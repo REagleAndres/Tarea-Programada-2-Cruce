@@ -4,8 +4,8 @@ LIBS = -lpthread
 
 SRC_DIR = src
 BIN_DIR = bin
-TARGET = $(BIN_DIR)/programa
-SOURCES = $(SRC_DIR)/cruce.c
+TARGET = $(BIN_DIR)/interseccion
+SOURCES = $(SRC_DIR)/interseccion.c
 OBJECTS = $(SOURCES:.c=.o)
 
 .PHONY: all run run_fase_1 run_fase_2 clean
